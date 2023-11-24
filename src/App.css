@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgba(16, 150, 150, 0.49);
+}
+
+.name {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 2em;
+  color: #8d18c3;
+  background: linear-gradient(
+    135deg,
+    rgba(141, 24, 195, 0.5),
+    rgba(158, 191, 196, 0.5)
+  );
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  float: center;
+}
+
+.title-1 {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 2em;
+  color: gray;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 4px solid rgba(46, 46, 46, 0.268);
+}
+
+.title-1:hover {
+  background: rgba(247, 247, 249, 0.49);
+  color: #8d18c3;
+  border-radius: 10px;
+  border: 4px solid rgba(46, 46, 46, 0.268);
+}
